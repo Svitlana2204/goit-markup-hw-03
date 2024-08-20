@@ -12,25 +12,19 @@ ol {
 }
 
 h1,h2,h3,h4,h5,h6,
-p{
+p {
   margin: 0;
 }
-
-
-
 
 a {
   text-decoration: none;
 }
 
-
-
 .container {
   max-width: 1158px ;
   padding: 0 15px;
-  margin: 0 auto;}
-
-
+  margin: 0 auto;
+}
 
   .page-header{
     border-bottom: 1px solid #e7e9fc;
@@ -95,6 +89,10 @@ a {
 
 }
 
+.card-image.no-gap{
+  display: block;
+}
+
 .contacts {
   font-style: normal;
   margin-left: auto;
@@ -131,13 +129,30 @@ a {
 .hero {
   background-color: #2e2f42;
 }
+.hero {
+  padding: 188px 0
+}
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px; 
 }
+
+.container-btn {
+  display: block;
+  min-width: 169px; 
+  height: 56px;
+  border: none; 
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
 .hero-btn {
   background-color: #4d5ae5;
   font-weight: 500;
@@ -205,6 +220,7 @@ text-transform: capitalize;
 
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .page-footer-subtitle {
   font-weight: 400;
@@ -212,4 +228,10 @@ text-transform: capitalize;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px 
+}
+
+.footer-l {
+  display: inline-block;
+  margin-bottom: 16px;
 }
