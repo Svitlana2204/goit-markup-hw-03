@@ -177,6 +177,24 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
+.hiro-size {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+
+
 .hiro-subtitle {
   font-size: 16px;
   line-height: 1.5;
